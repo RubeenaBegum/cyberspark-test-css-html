@@ -1,0 +1,139 @@
+.dropbtn {
+    background-color: grey;
+    color: black;
+    padding: 20px;
+    font-size: 12px;
+    min-width: 200px;
+}
+.dropdown {
+    display: inline-block;
+    position: relative;
+    min-width: 200px;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: orange;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+a:disabled,
+a[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.center {
+    text-align: center;
+}
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: rgb(139, 62, 85);
+    font-family: "Poppins", sans-serif;
+  }
+  a,
+  button {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .dropdown {
+    height: 10vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .projects,
+  .products {
+    position: relative;
+  }
+  
+  .projects ul,
+  .products ul {
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: white;
+    left: 0px;
+    list-style: none;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+  }
+  .projects li,
+  .products li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects li:hover,
+  .products li:hover {
+    background-color: rgb(197, 173, 181);
+  }
+  
+  .projects a,
+  .products a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown button,
+  .home {
+    background: none;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .projects button:focus + ul,
+  .products button:focus + ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+  }
+  
+  a:disabled,
+a[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+} */
